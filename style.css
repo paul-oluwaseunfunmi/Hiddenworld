@@ -1,0 +1,32 @@
+body h1{
+    color: blue;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color:silver ;
+}
+footer{
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+footer p{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0,10px;
+    margin-left: 50px;
+}
+footer :hover{
+    background-color: rgb(0, 255, 191);
+}
+.img{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
