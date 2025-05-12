@@ -188,7 +188,6 @@ h1 {
     padding: 15px;
     background: gold;
     border-radius: 8px;
-    text-align: left;
 }
 
 .mystery h2 {
@@ -215,10 +214,9 @@ H1 {
     padding-left: 750px;
 }
 
-.locations p {
-    padding-right: 700px;
-    padding-left: 0px;
-}
 p a{
     padding-left: 30px;
+}
+header h1{
+    padding-right: 800px;
 }
