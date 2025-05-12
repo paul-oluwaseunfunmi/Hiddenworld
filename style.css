@@ -11,6 +11,9 @@ body {
     position: relative;
     background-color: silver;
 }
+a{
+    padding-left: 900px;
+}
 
 footer {
     position: relative;
