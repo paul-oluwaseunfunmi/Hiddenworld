@@ -1,188 +1,218 @@
-body h1{
+body h1 {
     color: blue;
 }
-body{
+
+body {
     align-items: center;
     justify-content: center;
     height: 100px;
     margin: 0;
     padding: 0;
     position: relative;
-    background-color:silver ;
+    background-color: silver;
 }
-footer{
+
+footer {
     position: relative;
     text-align: center;
     margin-top: 50px;
     margin-left: 50px;
 }
-footer p{
+
+footer p {
     display: inline-block;
     vertical-align: middle;
-    margin: 0,10px;
+    margin: 0, 10px;
     margin-left: 50px;
 }
-footer :hover{
+
+footer :hover {
     background-color: rgb(0, 255, 191);
 }
+
 p {
     text-indent: 20px;
     margin-left: 20px;
-  }
-  .header {
-            background: linear-gradient(90deg, #2d2a4a, #4b3b63);
-            padding: 20px;
-            text-align: center;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-        }
+    padding-left: 450px;
+    padding-right: 530px;
+    font-size: large;
+}
 
-        .header h1 {
-            font-size: 36px;
-            letter-spacing: 2px;
-        }
+.header {
+    background: linear-gradient(90deg, #2d2a4a, #4b3b63);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
 
-        .nav {
-            margin-top: 10px;
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-        }
-        .home {
-            color: #cd4932;
-            text-decoration: none;
-            font-size: 18px;
-            padding: 10px;
-            transition: color 0.3s ease-in-out;
-        }
-        
-        .home:hover {
-            color: #ffd700;
-        }
+.header h1 {
+    font-size: 36px;
+    letter-spacing: 2px;
+}
 
-        .locations {
-              color: #cd4932;
-            text-decoration: none;
-            font-size: 18px;
-            padding: 10px;
-            transition: color 0.3s ease-in-out;
-        }
-        
-        .locations:hover {
-            color: black;
-        }
+.nav {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
 
-        .explore {
-            color: #cd4932;
-            text-decoration: none;
-            font-size: 18px;
-            padding: 10px;
-            transition: color 0.3s ease-in-out;
-        }
-        
-        .explore:hover {
-            color: #32cd32;
-        }
+.home {
+    color: #cd4932;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s ease-in-out;
+}
 
-        .mysteries-unsolved {
-            color: #cd4932;
-            text-decoration: none;
-            font-size: 18px;
-            padding: 10px;
-            transition: color 0.3s ease-in-out;
-        }
-        
-        .mysteries-unsolved:hover {
-            color: #1e90ff;
-        }
-        h1 {
-            color: #ffd700;
-        }
+.home:hover {
+    color: #ffd700;
+}
 
-        .explore-container {
-            max-width: 500px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #1e90ff;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-        }
+.locations {
+    color: #cd4932;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s ease-in-out;
+}
 
-        .country {
-            margin: 20px 0;
-            padding: 15px;
-            background-color:gold ;
-            border-radius: 8px;
-        }
+.locations:hover {
+    color: black;
+}
 
-        .country h2 {
-            color: black
-        }
+.explore {
+    color: #cd4932;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s ease-in-out;
+}
 
-        .places {
-            list-style: none;
-            padding: 0;
-        }
+.explore:hover {
+    color: #32cd32;
+}
 
-        .places li {
-            padding: 5px;
-            border-bottom: 1px solid #e0e0e0;
-        }
+.mysteries-unsolved {
+    color: #cd4932;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s ease-in-out;
+}
 
-        .places li:last-child {
-            border-bottom: none;
-        }
-        .content{
-            max-width: 500px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color:Gold;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-            color: black;
-        }
-        .section{
-            max-width: 500px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color:Gold;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-            color: black;
-        }
-        .sections{
-            color: blue;
-        }
-        .mysteries-container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background: #2d2a4a;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-        }
+.mysteries-unsolved:hover {
+    color: #1e90ff;
+}
 
-        .mystery {
-            margin: 20px 0;
-            padding: 15px;
-            background: gold;
-            border-radius: 8px;
-            text-align: left;
-        }
+h1 {
+    color: #ffd700;
+}
 
-        .mystery h2 {
-            color: black;
-        }
+.explore-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1e90ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
 
-        .mystery ul {
-            list-style: none;
-            padding: 0;
-        }
+.country {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: gold;
+    border-radius: 8px;
+}
 
-        .mystery ul li {
-            padding: 5px;
-            border-bottom: 1px solid #e0e0e0;
-        }
+.country h2 {
+    color: black
+}
 
-        .mystery ul li:last-child {
-            border-bottom: none;
-        }
+.places {
+    list-style: none;
+    padding: 0;
+}
+
+.places li {
+    padding: 5px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.places li:last-child {
+    border-bottom: none;
+}
+
+.content {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: Gold;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: black;
+}
+
+.section {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: Gold;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: black;
+}
+
+.sections {
+    color: blue;
+}
+
+#locations p{
+    padding: 50px;
+    font-size: 30px;
+}
+.mysteries-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #2d2a4a;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.mystery {
+    margin: 20px 0;
+    padding: 15px;
+    background: gold;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.mystery h2 {
+    color: black;
+}
+
+.mystery ul {
+    list-style: none;
+    padding: 0;
+}
+
+.mystery ul li {
+    padding: 5px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.mystery ul li:last-child {
+    border-bottom: none;
+}
+
+H1 {
+    text-indent: 20px;
+    margin-left: 20px;
+    padding-left: 750px;
+}
+
+.locations p {
+    padding-right: 700px;
+    padding-left: 0px;
+}
