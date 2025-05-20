@@ -1,13 +1,10 @@
-const signupbutton = document.getElementById('signupbutton')
-const signinbutton = document.getElementById('signinbutton')
-const signinform = document.getElementById('signin')
-const signupform = document.getElementById('signup')
-
-signupbutton.addEventListener('click',function(){
-    signinform.style.display='none';
-    signupform.style.display='block';
-})
-signinbutton.addEventListener('click', function(){
-    signinform.style.display='block';
-    signupform.style.display='none';
-})
+window.addEventListener('resize', () => {
+    const width = window.innerWidth;
+    const header = document.querySelector('h1');
+    
+    if (width < 600) {
+        header.textContent = "Explore Hidden Mysteries!";
+    } else {
+        header.textContent = "Hidden World";
+    }
+});
