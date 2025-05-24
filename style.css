@@ -206,12 +206,12 @@ body {
         font-size: large;
         font-family: 'Times New Roman', Times, serif;
     }
-   @media screen and (min-width:768px) {
+   @media screen and (max-width:768px) {
     body{
         font-size: 18px;
     }
    } 
-   @media screen and (max-width:480px) {
+   @media screen and (min-width:480px) {
     body{
         font-size: 14px;
     }
